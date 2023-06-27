@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;700&display=swap');
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+.bg-container{
+    background-size: cover;
+    background:  linear-gradient(180deg, #9D0E0E00 0%, #4F0707 100%),url('.\\images\\bg.png') ;
+    background-size: cover;
+    padding:15px;
+  }
+  .nav-container{
+    text-align:right;
+    width:100%;  
+  }
+  .login{
+    font: normal normal medium 16px/25px Poppins;
+    color: #FFFFFF;
+    font-weight:500;
+    
+  }
+  .nav-container button{
+    background-color: transparent;
+    font: normal normal medium 16px/25px Poppins;
+    color: #FFFFFF;
+    font-weight:500;
+    margin-left:25px;
+    border:1px solid white;
+    margin-right:80px;
+    padding:10px;
+  }
+  .search-container{
+    display:flex;
+    flex-direction:column;
+   justify-content: center;
+  }
+  .search-container>div:nth-child(1){
+    font: normal normal 600 70px/106px Poppins;
+    color: #EB2929;
+    width: 130px;
+    height: 130px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius:50%;
+    align-self: center;
+    padding-top:5px;
+    text-align:center;
+  }
+  .input-container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:10px;
+  }
+  @media screen and (min-width: 796px) {
+    .input-container{
+      flex-direction:row;
+      gap:20px;
+      justify-content: center;
+    }
+  }
+ 
+  input[type=text]{
+    outline: none;
+    border:none;
+    padding:15px;
+  }
+.search-input{
+  display:flex;
+  background-color: white;
+  align-items: center;
+  padding-left:10px;
+}
+@media screen and (min-width: 796px) {
+  .search-input{
+   width:30%;
+  } 
+}
+.quick-search{
+  color:#192F60;
+  margin-top:10px;
+  font: normal normal bold 30px/46px Poppins;
+}
+.description{
+  color:#8C96AB;
+  font: normal normal normal 18px/27px Poppins;
+}
+.name{
+  color:#192F60;
+  font: normal normal 600 18px/27px Poppins;
+}
+.card-container{
+  width: 360px;
+  height: 160px;
+  box-shadow: 0px 3px 6px #00000029;
+}

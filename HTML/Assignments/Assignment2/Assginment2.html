@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Assignment2</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;800&family=Roboto:wght@300;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.container{
+    padding:10px;
+    background-color: #eee;
+   
+}
+h1{
+    color:rgb(87, 40, 79);
+    text-align:center;
+    font-size:40px;
+}
+form{
+    padding:20px;
+    background-color: azure;
+    width:400px;
+    margin-left:20px;
+}
+.description{
+    font-size:20px;
+    font-weight:600;
+    margin-left:20px;
+    margin-top:20px;
+    color:blueviolet;
+}
+label{
+    font-weight:550;
+    font-size:15px;
+     color:rgb(58, 11, 11)
+}
+input{
+    height:30px;
+    width:90%;
+    margin-bottom:10px;
+}
+textarea{
+    height:200px;
+    width:90%;
+    margin-bottom:10px;
+}
+button{
+    color:white;
+    border:0;
+    background-color: royalblue;
+    padding:10px;
+    font-weight:600;
+    border-radius:10px;
+}
+section{
+    margin:20px;    
+    left:5px;
+    bottom:0;
+    background-color:#ddd;
+    padding:20px;
+}
+article{
+    margin:20px;
+    left:220px;
+    bottom:0;
+    padding:20px;
+    background-color:#ddd;
+}
+.initial{
+    background-color: rgb(10, 239, 239);
+    color:white;
+    font-weight:bold;
+    padding:6px 10px;
+    border-radius:50%;
+    font-size:23px;
+}
+.name{
+    color: #666;
+    font-weight:600;
+    font-size:20px;
+}
+section p{
+    margin-top:20px;
+    color:#333;
+    font-weight:500;
+}
+article p{
+    margin-top: 20px;
+    color:#333;
+    font-weight:500;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Comment Section</h1>
+        <p class="description">Write your comment below being a Full Stack Web Developer</p>
+        <form>
+        <label>Name</label>
+        <br/>
+        <input type="text"/>
+        <br/>
+        <label>Comment</label>
+        <br/>
+        <textarea rows="4" cols="50"></textarea>
+        <br/>
+        <button>Submit</button>
+        </form>
+        <section>
+            <span class="initial">E</span>
+            <span class="name">Edward</span>
+            <p>I am happy with being full stack web developer.I can built both Front-End and Back-End projects.Now I am buliting whole web application  </p>
+        </section>
+        <article>
+            <span class="initial" style="background-color: palevioletred;">R</span>
+            <span class="name">Richard</span>
+            <p>I am happy with being full stack web developer.I can built both Front-End and Back-End projects.Now I am buliting whole web application  </p>
+        </article>
+    </div>
+</body>
+</html>

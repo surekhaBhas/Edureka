@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;800&family=Roboto:wght@300;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.container{
+    padding:10px;
+    background-color: #eee;
+   
+}
+h1{
+    color:rgb(87, 40, 79);
+    text-align:center;
+    font-size:40px;
+}
+form{
+    padding:20px;
+    background-color: azure;
+    width:400px;
+    margin-left:20px;
+}
+.description{
+    font-size:20px;
+    font-weight:600;
+    margin-left:20px;
+    margin-top:20px;
+    color:blueviolet;
+}
+label{
+    font-weight:550;
+    font-size:15px;
+     color:rgb(58, 11, 11)
+}
+input{
+    height:30px;
+    width:90%;
+    margin-bottom:10px;
+}
+textarea{
+    height:200px;
+    width:90%;
+    margin-bottom:10px;
+}
+button{
+    color:white;
+    border:0;
+    background-color: royalblue;
+    padding:10px;
+    font-weight:600;
+    border-radius:10px;
+}
+section{
+    margin:20px;    
+    left:5px;
+    bottom:0;
+    background-color:#ddd;
+    padding:20px;
+}
+article{
+    margin:20px;
+    left:220px;
+    bottom:0;
+    padding:20px;
+    background-color:#ddd;
+}
+.initial{
+    background-color: rgb(10, 239, 239);
+    color:white;
+    font-weight:bold;
+    padding:6px 10px;
+    border-radius:50%;
+    font-size:23px;
+}
+.name{
+    color: #666;
+    font-weight:600;
+    font-size:20px;
+}
+section p{
+    margin-top:20px;
+    color:#333;
+    font-weight:500;
+}
+article p{
+    margin-top: 20px;
+    color:#333;
+    font-weight:500;
+}
